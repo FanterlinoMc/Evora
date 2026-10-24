@@ -1,0 +1,537 @@
+{
+ "version": 1,
+ "at": "2026-10-24T13:24:55.538Z",
+ "seed": 1529984399,
+ "redraws": 0,
+ "input": {
+  "brief": "EVORA, an independent extrait-strength perfume house from Cairo with four signatures: Suvelle, Vanilla Reverie, Velora, Vanilla Cloud",
+  "sector": "physical-product",
+  "tone": "luxury",
+  "have": [
+   "product-photo"
+  ],
+  "keep": [
+   "palette",
+   "type"
+  ],
+  "avoid": [],
+  "sections": [
+   "list",
+   "showcase",
+   "proof",
+   "about",
+   "pricing",
+   "footer"
+  ],
+  "direction": "hero-object"
+ },
+ "imagery": "own",
+ "allow": [],
+ "direction": {
+  "id": "hero-object",
+  "name": "The object, large",
+  "sectors": [
+   "physical-product",
+   "ecommerce",
+   "consumer-app",
+   "fashion",
+   "finance",
+   "health",
+   "restaurant",
+   "music"
+  ],
+  "tones": [
+   "bold",
+   "luxury",
+   "quiet"
+  ],
+  "needs": [
+   "product-photo"
+  ],
+  "idea": "Show the thing, bigger than seems reasonable. One photographed object fills the first screen, scaled until the viewport crops it, with the text small and tucked beside or behind it. The crop is the idea: a record whose edge leaves the top-right corner, a bottle whose shoulder runs off the bottom, a chair seen so close you read its grain. Being that close reads as confidence in the object. Everything else on the page serves it: details as tight close-ups, facts as short lines, one way to buy.",
+  "composition": "First screen: the object occupies 55–75% of the viewport and breaks at least one edge. It sits on a flat field (ground colour or one bold colour), never in a box. The headline is short and either very large and partly hidden behind the object (10–13vw, the object overlapping two or three letters) or small (28–36px) in the opposite corner with a one-line description. No navigation bar beyond a wordmark and one action. Following sections: a row of three or four close-up details at different crop ratios (not equal tiles), a single wide photograph of the object in use, a plain list of facts set large (materials, size, price) aligned to one edge, then the purchase action. The object returns once at the end from a different angle.",
+  "typography": "Either very large and structural or very small and precise; pick one for the headline and hold it. Facts are set in the text face at 22–28px, not in a table.",
+  "typeClasses": [
+   "grotesk-light",
+   "grotesk-tight",
+   "extended-heavy",
+   "serif-light-large"
+  ],
+  "colour": "A flat field chosen to make the object's own colour sing (its complement, or a tone darker than its shadow side). One field for the whole page, or a second for the facts section.",
+  "paletteTags": [
+   "single-field",
+   "light-neutral",
+   "pastel-fields",
+   "dark-neutral"
+  ],
+  "imagery": "Use the product's own photographs if they exist. Otherwise use a still-life from the dealt set as a stand-in and say so. Prefer images with a plain background; use `mix-blend-mode: multiply` on light fields so a white studio background disappears into the page colour.",
+  "photoTreatment": "Scale the main image well past its container (`width: 120–160%`) and let `overflow: hidden` on the section do the cropping.",
+  "sectionTags": [
+   "object-led",
+   "photo-led",
+   "colour-field"
+  ],
+  "motion": "shutter-image",
+  "richness": "The object's surface at close range, and the tension of the crop.",
+  "pitfalls": "A small centred product shot with space all round is a catalogue thumbnail, not this direction. If the image has a busy background it cannot sit on a field; crop tighter or change image. Keep text off the object's focal area.",
+  "seenIn": [
+   "opl-when-you-wish-upon-a-starboy",
+   "opl-plastic",
+   "opl-archiv",
+   "aww-moto-finance",
+   "aww-the-watch",
+   "opl-aevion"
+  ],
+  "allow": []
+ },
+ "hero": {
+  "id": "object-crops-three-edges",
+  "name": "Object cropped by three edges",
+  "archetype": "object-centre",
+  "directions": [
+   "hero-object",
+   "loud-flat-poster"
+  ],
+  "needs": [
+   "product-photo"
+  ],
+  "blueprint": "A flat off-white or single bold colour field with no navigation bar: only a small wordmark top-right at 24px and the single action fixed bottom-right as a solid rectangular button. The left 60% of the screen is one object photographed on a plain background and scaled far past its container. Set the image to about 150% of the hero's height, rotate it 10 to 20 degrees and position it so the top, left and bottom edges of the viewport all crop it and only its right-hand third is fully inside; use `overflow: hidden` on the section and `mix-blend-mode: multiply` if the field is light. The headline fills the right half: two stacked lines of very bold lowercase at clamp(120px, 13vw, 210px), right-aligned 16px from the right edge, tracking -0.05em, line-height 0.86, vertically centred. It sits behind the object in the stacking order, so the object's right-hand contour tucks over the first one or two letters of each line. One supporting sentence at 18px, max 28ch, is right-aligned under the headline on columns 9–12. Nothing else is on the screen: no second image, no list.",
+  "mobile": "The object moves to the top: the image is 150vw wide, rotated, cropped by the top, left and right edges, and occupies the upper 52svh. The headline sits below it at 19vw on two lines, right-aligned at a 12px margin, its first line overlapped by the object's lower contour. The supporting sentence follows at 16px, right-aligned. The action button stays fixed bottom-right.",
+  "headline": "Two lines of one or two short words each, up to about 8 characters per line at 13vw, partly tucked behind the object.",
+  "motion": "shutter-image",
+  "seenIn": [
+   "opl-when-you-wish-upon-a-starboy"
+  ]
+ },
+ "type": null,
+ "palette": null,
+ "photos": {
+  "set": "sky-and-space",
+  "title": "Sky and space",
+  "note": "skies, clouds, stars and night skies",
+  "treatment": "Scale the main image well past its container (`width: 120–160%`) and let `overflow: hidden` on the section do the cropping.",
+  "others": [
+   "mountain",
+   "fog-and-quiet",
+   "hands-and-making",
+   "forest"
+  ],
+  "photos": [
+   {
+    "id": 114,
+    "alt": "Dark storm clouds hanging over a faint mountain ridge",
+    "tone": "dark",
+    "colours": [
+     "dark teal",
+     "muted beige"
+    ],
+    "mono": false,
+    "calm": "all",
+    "quality": 4,
+    "ratio": 1.33,
+    "by": "Brian Gonzalez",
+    "page": "https://unsplash.com/photos/llYg8Ni43fc"
+   },
+   {
+    "id": 38,
+    "alt": "White cumulus cloud rising against a dark teal sky",
+    "tone": "mid",
+    "colours": [
+     "dark teal",
+     "white"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.33,
+    "by": "Allyson Souza",
+    "page": "https://unsplash.com/photos/JabLtzJl8bc"
+   },
+   {
+    "id": 607,
+    "alt": "Soft streaked clouds in a blue sky above a calm sea",
+    "tone": "mid",
+    "colours": [
+     "sky blue",
+     "white",
+     "teal"
+    ],
+    "mono": false,
+    "calm": "all",
+    "quality": 4,
+    "ratio": 0.67,
+    "by": "Grégoire Hervé-Bazin",
+    "page": "https://unsplash.com/photos/_LLcIlMoUaE"
+   },
+   {
+    "id": 505,
+    "alt": "Tiny silhouetted figure on a dark ridge under a blue and orange twilight sky",
+    "tone": "dark",
+    "colours": [
+     "deep blue",
+     "orange",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 5,
+    "ratio": 1.5,
+    "by": "lee Scott",
+    "page": "https://unsplash.com/photos/_VTgctRg0tA"
+   },
+   {
+    "id": 724,
+    "alt": "Green and red aurora glowing above silhouetted pine trees",
+    "tone": "dark",
+    "colours": [
+     "green",
+     "magenta",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Nelly Volkovich",
+    "page": "https://unsplash.com/photos/ZSMgNjYrHRM"
+   },
+   {
+    "id": 967,
+    "alt": "Earth's curved horizon with green aurora seen from an orbiting spacecraft",
+    "tone": "dark",
+    "colours": [
+     "emerald green",
+     "violet",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "NASA",
+    "page": "https://unsplash.com/photos/NuE8Nu3otjo"
+   },
+   {
+    "id": 427,
+    "alt": "Small palm silhouettes along the horizon under a peach dusk sky",
+    "tone": "mid",
+    "colours": [
+     "peach",
+     "dusty mauve",
+     "dark brown"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "James Douglas",
+    "page": "https://unsplash.com/photos/LJb0yZ7UD7o"
+   },
+   {
+    "id": 654,
+    "alt": "Starry dusk sky glowing orange above silhouetted trees",
+    "tone": "dark",
+    "colours": [
+     "deep purple",
+     "burnt orange",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Josh Felise",
+    "page": "https://unsplash.com/photos/trvELSvNZoY"
+   }
+  ]
+ },
+ "motion": {
+  "id": "shutter-image",
+  "name": "Shutter image",
+  "description": "The one hero or showcase image opens from an edge with a clip-path over about 1.1 seconds while the picture inside settles from 1.12 scale to rest. Use it once, on the image that matters most; later images simply are there. Recipe: 'Image shutter' in references/motion.md."
+ },
+ "sections": [
+  {
+   "id": "list-object-rides-the-schedule",
+   "role": "list",
+   "name": "Object riding down the schedule",
+   "shape": "table",
+   "tags": [
+    "object-led",
+    "type-led",
+    "dense"
+   ],
+   "directions": [
+    "hero-object",
+    "borrowed-category",
+    "loud-flat-poster",
+    "dark-room",
+    "specimen-catalogue"
+   ],
+   "needs": [
+    "product-photo"
+   ],
+   "blueprint": "A schedule of dated events (races, concerts, tastings, departures) with the subject's own object travelling down it. On a dark flat ground, on the page's own margins, the heading is one centred line of condensed capitals at clamp(40px, 3.6vw, 56px), split into its two words with a gap between them, and in the gap stands a cut-out photograph of the object seen from above or in profile, about 320px wide (22% of the width) and up to 64% of the viewport tall. Below come full-width rows 84px tall, each a two-part grid: the event's name at 26px in condensed capitals on the left with a one-line note at 16px in the soft ink under it, and the date and place right-aligned at 16px on the note's baseline. Rows alternate between the ground and a tone one step lighter instead of rules. As the page scrolls, the object leaves the heading and moves down the centre line over the rows (`position: sticky` in a centred column that spans the list, `pointer-events: none`), where it covers only the empty middle of each row and marks how far the reader has come. The row for the next event takes the accent colour across its whole band, with its name and date in the accent's ink. About ten rows fit on one screen; the list ends 120px under the last row.",
+   "mobile": "Rows stack at full width on 20px margins: the name at 22px on up to two lines, the note at 16px, the date under the note. The object shrinks to 40% of the width and stays in the heading; it does not travel, because on a phone it would cover the rows. The accent band stays on the next event.",
+   "seenIn": [
+    "aww-nick-ho"
+   ]
+  },
+  {
+   "id": "showcase-close-up-with-column-card",
+   "role": "showcase",
+   "name": "Close-up with column card",
+   "shape": "full-bleed",
+   "tags": [
+    "photo-led",
+    "object-led"
+   ],
+   "directions": [
+    "hero-object",
+    "place-carries-it",
+    "dark-room",
+    "borrowed-category",
+    "pinned-poster"
+   ],
+   "needs": [],
+   "blueprint": "A full-bleed close-up photograph, 100vw by 100svh, with nothing over most of it. A four-column grid lies on top. One solid card in the ink colour, exactly one grid column wide (about 22vw) and 52svh tall, sits in the second column, vertically centred. Inside it, centred: the item's name at 30–36px, a variant line at 17px, the price or key fact at 17px, a small 3:2 photograph of the whole object (the card shows the whole, the background shows the detail), and at the foot a square-cornered action filling the card's width. The card is opaque, radius 0–6px, with no blur. When the section presents two or three items, each gets its own full-bleed frame and its card moves one column to the right each time, so position carries the sequence. The first card's name is the section heading.",
+   "mobile": "The photograph fills 100svh, cropped to its most detailed area. The card becomes a full-width block docked to the bottom, 46svh tall, left-aligned inside with 20px padding; the small whole-object photograph sits to the right of the name at 96px wide.",
+   "seenIn": [
+    "aww-longbow"
+   ]
+  },
+  {
+   "id": "proof-names-off-both-edges",
+   "role": "proof",
+   "name": "Names running off the edges",
+   "shape": "band",
+   "tags": [
+    "type-led",
+    "poster"
+   ],
+   "directions": [
+    "pinned-poster",
+    "loud-flat-poster",
+    "name-as-monument",
+    "borrowed-category",
+    "hero-object",
+    "colour-chapters"
+   ],
+   "needs": [],
+   "blueprint": "A full-bleed band in a flat colour, about 34vh tall, holding a single line of names that is cropped by both viewport edges. The names are set at 8vw in the display weight, `white-space: nowrap`, separated by a solid round dot one third of the cap height, and the line moves slowly to the left (a CSS `translateX` animation over 40 seconds on a duplicated track, paused under `prefers-reduced-motion`). The band has no heading. Its meaning comes from one sentence at 18px set directly below the band at the left margin on the page ground, stating plainly who these names are. Supplied logos may replace names if all are available as single-colour SVGs at 0.8em height; do not mix logos and set names in one line. The band butts against the sections above and below with no gap.",
+   "mobile": "The band is 22vh tall with names at 15vw, still cropped at both edges and still moving. The explaining sentence sits under it at 16px with 20px margins. Do not add a second line running the opposite way; one line is the idea.",
+   "seenIn": [
+    "aww-made-with-gsap-1"
+   ]
+  },
+  {
+   "id": "about-shaped-portrait-panel",
+   "role": "about",
+   "name": "Inset panel, shaped portrait",
+   "shape": "split",
+   "tags": [
+    "colour-field",
+    "photo-led",
+    "object-led"
+   ],
+   "directions": [
+    "one-motif",
+    "hero-object",
+    "borrowed-category",
+    "colour-chapters",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "A deep-toned panel inset 20px from the page edges with a 12px radius, about 110svh tall, `overflow: hidden`. Left half: a two-line statement of four to seven words at clamp(40px, 4.4vw, 64px) in a pale ink, top-left with 56px padding; it is the heading and has nothing above it. Below it a photograph of the person or the workshop, masked with `clip-path` or an SVG `mask` to one bold shape taken from the subject (a four-lobed flower, a circle, an arch, a chamfered block), 38vw across, positioned so the panel's bottom edge crops its lowest fifth. Right side, starting at 63% of the width and 56px from the top: two text blocks 300px wide and 64px apart, each a subhead at 22px over a four-line paragraph at 15px; then one solid button in the accent colour. Between the statement and the text blocks the panel is empty. One photograph only.",
+   "mobile": "The panel is inset 10px and stacks: the statement at 8.5vw, then the two text blocks at full width, the button, and last the shaped photograph at 86vw across, centred and cropped by the panel's bottom edge by a quarter of its height.",
+   "seenIn": [
+    "opl-zara-webb"
+   ]
+  },
+  {
+   "id": "pricing-itemised-receipt",
+   "role": "pricing",
+   "name": "The itemised receipt",
+   "shape": "stack",
+   "tags": [
+    "object-led",
+    "quiet"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "hero-object",
+    "specimen-catalogue",
+    "borrowed-category",
+    "quiet-instrument"
+   ],
+   "needs": [],
+   "blueprint": "For offers made of parts: a base price plus options, a kit, a bundle. A tall paper-coloured slip 380px wide sits in columns 8–11 on a contrasting ground, its bottom edge cut into a zigzag with `clip-path: polygon()`, its top edge running off the top of the section. On the slip, with 28px padding: the name centred at 20px bold, then each item as a row with the description left and the amount right at 16px with tabular figures, 14px between rows; a thick 4px bar in the ink colour; then the total as the largest thing on the slip at 44px, right-aligned. Columns 1–6 carry the heading (two to four words at about 4vw), one paragraph at 18px and the button, starting 96px from the top. If options are selectable, ticking one in the left column adds its row to the slip and updates the total.",
+   "mobile": "Heading, paragraph and any options come first. The slip follows at 86% width, centred, keeping its zigzag foot, with rows at 16px and the total at 36px. The button sits under the slip at full width, 52px tall.",
+   "seenIn": [
+    "opl-poetry-camera"
+   ]
+  },
+  {
+   "id": "footer-photograph-and-large-menu",
+   "role": "footer",
+   "name": "Photograph half, menu half",
+   "shape": "split",
+   "tags": [
+    "photo-led",
+    "type-led"
+   ],
+   "directions": [
+    "split-stage",
+    "loud-flat-poster",
+    "hero-object",
+    "uneven-photographs",
+    "pinned-poster",
+    "place-carries-it"
+   ],
+   "needs": [],
+   "blueprint": "A split footer one viewport tall. The left half is a single photograph filling columns 1–6 edge to edge, cropped hard by the left and bottom viewport edges: a close crop of the page's main subject, larger than it appeared anywhere above. The right half, on a flat field, is the site's menu set large: five or six section names stacked as links at about 2.6vw bold, 28px apart, starting at column 8 and 80px from the top. Rows are separated by space only; on hover a row's label shifts right by 12px and the others drop to the softer ink. Under the menu, 64px lower, two short blocks at 15px side by side: contact and social. The legal line runs along the very bottom of the right half at 12px. The wordmark sits small at the top of the right half, on the menu's left edge.",
+   "mobile": "The photograph leads at full width and 50svh, cropped tight. The menu follows on the flat field at 8vw per item with 20px between items, then contact and social stacked at 15px, then the legal line at 12px. The wordmark sits small above the menu.",
+   "seenIn": [
+    "aww-trevor-noah",
+    "aww-monolog"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "opl-aevion",
+   "name": "Aevion",
+   "url": "https://drone.riotters.com",
+   "source": "One Page Love",
+   "kind": "physical-product",
+   "score": 7.3,
+   "idea": "One photoreal drone flies down the whole page through a white space organised only by hairlines and very light type.",
+   "mood": [
+    "clinical",
+    "weightless",
+    "technical",
+    "calm"
+   ],
+   "archetype": "product-object-centre",
+   "hero": "The first capture is the preloader: a white field with a tiny mono percentage counter dead centre. The loaded hero is white with a hairline-thin top bar: logo and a descriptor left, a credit and a live GMT clock in the middle, a small grey menu chip right. A pale blue-grey gradient panel fills the top 40% inside 12px margins. A white 3D drone hovers at centre, straddling a full-width hairline; a vertical hairline drops from it to the bottom edge. The headline is only 24px, two lines, far left, sitting on the horizontal rule with its second sentence greyed; a scroll cue sits far right on the same line.",
+   "type": "Switzer in light weight (300) with -0.033em tracking for everything from the 24px headline to a single word at 16.7vw; protoMono at 12px in caps for bracketed labels and legal lines. Slate and pale grey mixed within one sentence. Four sizes.",
+   "colour": "#fdfdfd #eef1f3 #24363f #a3abb0 #d5d9db — White on white with dark slate type and a paler grey for unrevealed words. The only tint is a faint blue-grey wash in the hero and the teal glint of the drone's lens. Cool.",
+   "imagery": "A single white-and-grey quadcopter rendered live, with motion-blurred rotors, shown from front, three-quarter and side as it moves; often cropped by the right edge. Supporting graphics are hairline arcs and circles like a technical drawing.",
+   "layout": "12px page margins, content hung on a few full-width and half-width hairlines. Each screen holds one idea: a statement, a word, an object. Text stays left or lower-right while the drone travels between them. Nineteen screens of mostly white.",
+   "sections": [
+    {
+     "role": "intro",
+     "description": "White screen with a vertical hairline at 50% and a horizontal one near the bottom. Left half: a four-line statement at about 3vw in light grotesk, each word either dark slate or pale grey as a scroll-linked reveal passes through it. Right half: the drone in three-quarter view, cropped by the right edge and crossing the vertical rule."
+    },
+    {
+     "role": "showcase",
+     "description": "A single noun set at 16.7vw in slate, top-left, the largest type on the page. A tiny mono label with a bullet sits far left at mid-height; a numbered chip sits top-right. The drone overlaps the right side at mid-height, and beneath it a 24px two-paragraph spec block occupies the right half, its later words still ghosted."
+    },
+    {
+     "role": "other",
+     "description": "Landing diagram: the drone hovers above a drawing made only of hairlines: a large semicircular arc, a small circular target on the baseline, vertical dividers creating three bays, and a bracketed mono label above the target. Nothing else is on screen; the object and the drawing carry the whole frame."
+    },
+    {
+     "role": "footer",
+     "description": "Bracketed mono labels at both ends of a hairline, then a two-column row: a question at left, an answer plus a small square-cornered slate button at right. Below right, two short link lists in 12px; studio logo bottom-left; a mono legal line across the bottom edge."
+    }
+   ],
+   "steal": [
+    "Use one hairline cross (a horizontal plus a vertical rule) as the only layout furniture and let the product render straddle it.",
+    "Set a single noun at 16vw as a chapter title and keep all explanatory copy at 24px, with nothing in between.",
+    "Reveal paragraphs word by word from pale grey to dark slate tied to scroll, so unread text stays visibly ghosted."
+   ],
+   "media": "Every product view is real-time 3D: one fixed WebGL canvas carries the drone, centred at about 42% of the width inside an inset 1392x812 pale panel with a giant blurred wordmark behind it, then moves to the right half, then above a semicircle gauge, then inside a flat pale panel, while the HTML scrolls round it. The only photographic colour is one muted 8s clip filling the right half of a split.",
+   "motion": "A numeric preloader counts for about 4.5s, then the page wipes up from the bottom by clip-path over 1670ms on a spring-shaped linear() ease, the ghost wordmark sharpens from a 200px blur over 2020ms, and the caption letters de-blur at a 50ms stagger. Lenis with two long pins (about 3.9 and 6.8 viewports) that step through three states each, swapping the drone's pose; statements scrub from grey to ink word by word, and buttons move over 0.5s cubic-bezier(0.22,1,0.36,1)."
+  },
+  {
+   "id": "opl-plastic",
+   "name": "Plastic",
+   "url": "https://myplastic.app",
+   "source": "One Page Love",
+   "kind": "consumer-app",
+   "score": 7.1,
+   "idea": "A plain, quiet app page given one physical object: a photographed vinyl record cropped by the top-right corner of the viewport.",
+   "mood": [
+    "clean",
+    "calm",
+    "tactile",
+    "friendly"
+   ],
+   "archetype": "other: centred-statement-with-corner-object",
+   "hero": "Pale grey page with no navigation, only a bold wordmark with a small orange-red caps descriptor beneath it at top left (80px margin). A photographed black vinyl record with an orange-red label is cropped by the top-right corner, showing a quarter disc about 360px wide and tall, with an orange wire stand poking out below it. The headline is centred slightly above the middle in two lines at 74px (5.2vw), about 37% of the viewport wide, followed by a two-line 17px sentence and two black store badges side by side. Lower down, an award mark and a laurel-framed rating sit centred; the bottom fifth is empty.",
+   "type": "Archivo only. Headline weight 500, sentence case, tight leading, 74px against 17px body, about a 4.4x jump. Feature headings near 30px in two colours, a much larger heading in the dark section (digest peak 12vw), and tiny tracked caps in the footer.",
+   "colour": "#f5f5f5 #d5d5d5 #090d0e #171615 #e0441c — Greys and near-black with one orange-red accent taken from the record label; it colours the logo descriptor and the first line of each feature heading. One near-black section breaks the light page.",
+   "imagery": "Phone mockups with real app screens (album-cover grids, a camera view) sit inside mid-grey rounded panels and are cropped by the panel edge. The hero uses a cut-out photographed record with a soft shadow; album art supplies the colour.",
+   "layout": "Centred hero, then feature rows on a wide container: a tall grey panel on one side and a short text block vertically centred on the other, sides swapping per row. A dark full-width section with offset white cards follows, then a narrow FAQ column and a sparse footer.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "Each feature is a two-column row. One column is a mid-grey rounded panel about 540px wide and 720px tall containing a phone mockup pinned near the top, with the next phone's top edge peeking in at the panel's bottom. The other column holds a two-line heading, first line orange-red and second near-black at the same size, over a three-line grey paragraph, vertically centred. The panel side alternates left and right."
+    },
+    {
+     "role": "showcase",
+     "description": "A near-black full-width section opens with a large centred white heading. Below it, white rounded cards of different sizes are placed off-grid at staggered horizontal positions: one holds an album-cover collage with a record sliding out, with a bold white caption and a grey line beneath it on the dark ground; another is a small data card listing collection fields as label and value rows."
+    },
+    {
+     "role": "faq",
+     "description": "A left-aligned column about 480px wide, offset toward the page centre and headed by a bold short title. Six questions in small bold text are separated by hairlines, each with a plus sign at the right edge. A generous empty gap follows before a footer of three tiny caps link groups spread left, centre and right, small legal notes, and a pipe-separated caps link row."
+    }
+   ],
+   "steal": [
+    "Crop one photographed physical object by a viewport corner so the hero has a subject without a centred mockup.",
+    "Set two-line feature headings at one size with the first line in the accent colour and the second in ink.",
+    "Drop the nav entirely on a one-page app site: wordmark plus a one-line descriptor top left, store badges directly under the headline."
+   ]
+  },
+  {
+   "id": "aww-ciao-energy-launch-website",
+   "name": "Ciao Energy",
+   "url": "https://www.ciaoenergy.com/",
+   "source": "Awwwards Site of the Day",
+   "kind": "physical-product",
+   "score": 7.6,
+   "idea": "The can is the whole website: one fixed real-time 3D studio scene in which the camera travels from a flavour carousel to extreme close-ups of the can's own label, where each claim is paired with the ingredient that was taken out, and the copy is a thin layer over the product.",
+   "mood": [
+    "glossy",
+    "bold",
+    "nocturnal",
+    "technical",
+    "energetic"
+   ],
+   "archetype": "product-object-centre",
+   "hero": "A fixed full-viewport 3D canvas on a dark grey studio floor fading to black over the top 40%. A metallic can stands dead centre (about 16% of the width, half the height), tilted about 10 degrees, between a chrome ring hovering above and a dark plinth below; six darker, smaller cans recede on a shallow arc behind it, the outer two cut by the viewport edges. The flavour name sits on the plinth in two lines of heavy italic uppercase at about 36px, over a 480px slider and a small scroll prompt; thin chevrons about 140px either side of the can change flavour. A centred logo about 125px wide at the top, a sound toggle left, a white contact pill right. No headline: the benefits arrive one scroll later.",
+   "type": "Three families. A heavy (900) italic uppercase grotesque with leading 0.8 for headings only: about 45px for feature headings, 108px (7.5vw) for the FAQ, about 190px cap height for the slogan. A neutral geometric grotesque at 16px, leading about 1.6, for body, and 18px weight 500 for FAQ questions. A monospace at 11-12px uppercase for tags, the prompt and the nav; the house version keeps those labels in the text face, sentence case, at 16px.",
+   "colour": "#000000 #6a6a6a #ffffff #3d2b68 #9a8ae6 — Black page (about 60% of pixels) and a grey studio floor fading to black; all text and buttons white. One custom property carries the flavour colour (a deep violet here) and tints the close-ups and the light, and a lilac accent marks the active claim. Every other colour comes from the cans themselves. The site's blue-to-pink slider is a gradient; the house version is a flat bar in the flavour colour.",
+   "imagery": "No photographs or video: one art-directed render set of about twelve aluminium cans in six flavours, a chrome ring and a plinth, under soft key lights, with depth falloff on the background cans and a flavour-tinted spot and haze on the close-ups. Always full-bleed, never boxed or rounded.",
+   "layout": "Two insets: the interface at 4% (58px) for the menu, the sound toggle and a progress bar; the content at 10% (x=144), a copy column about 400px wide and vertically centred, leaving the centre-right 40-50% to the product. Eight beats of 1.25 viewports each (about 14 screens) are empty scroll spacers that move the camera; the DOM layout barely changes. After the footer the scroll loops back to the carousel.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "Pinned label close-ups. The camera comes so close that one can fills a tilted band about 450px wide, cropped by the top or bottom edge, its printed label repeating the claim. Left at x=144, about 400px wide: a small tag naming the removed ingredient, a two-line heavy italic heading at about 45px, three lines of 16px body. A rail of four round 50px buttons at the right margin shows the active claim. Each beat re-angles the camera."
+    },
+    {
+     "role": "intro",
+     "description": "A two-word slogan in heavy italic uppercase across about 80% of the width at about 40% white, cap height near 190px, on a blurred lilac wash, with the can floating in front of the middle letters."
+    },
+    {
+     "role": "showcase",
+     "description": "The whole range with no text: twelve cans in every flavour colour lined up on a sweeping diagonal from lower left to upper right, bleeding off both edges over the grey studio floor."
+    },
+    {
+     "role": "faq",
+     "description": "A 108px heavy italic heading at x=144, then a 670px accordion offset right of centre: 18px questions in rows about 64px tall, each with a small chevron. A centred newsletter block about 490px wide closes the page."
+    }
+   ],
+   "steal": [
+    "For a single physical product, keep one fixed full-viewport render and move the camera, never the layout: beats of about 1.25 viewports, each with its own angle, plus real DOM text so a slow GPU or a failed WebGL context still shows every claim.",
+    "Pair each claim with an extreme close-up of the product's own printed label in a tilted band beside a 400px copy column set 10% from the left, so the object proves the sentence next to it.",
+    "Bind the accent to the product variant with one custom property that changes over 0.6s when the flavour changes, and let the scene's light follow it. The site floats the can over its slogan; under the house rules nothing covers a statement, so set the object beside or below the type."
+   ],
+   "media": "One fixed WebGL canvas covers 100% of every screen and holds the only pictures: product renders, no photographs and no video. The product stands centre in the hero, then fills a tilted band beside the copy column, then sweeps the whole range diagonally across the frame.",
+   "motion": "Fourteen ScrollTriggers on empty 1125px spacers set about 26 scene values (camera, can spin, arc spacing, light, tint) that short 0.09-0.12s power1.inOut tweens chase, so the camera moves continuously between beats. Headings, split into 382 characters, enter with opacity, scale and y over 0.6s power2.out and leave over 0.9s power2.in with a 0.25s stagger; the flavour colour eases over 0.6s, and the full scene took 12.7s to load.",
+   "panel": "2026-10"
+  }
+ ],
+ "scenes": []
+}
